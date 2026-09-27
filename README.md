@@ -3,8 +3,13 @@
 An ultra-realistic, interactive Japanese koi pond garden — rendered in real time in the browser with [Three.js](https://threejs.org) and custom shaders. The **entire garden lives in one HTML file**: no build step, no bundler, no asset folder. Every mesh, texture, sound and animation is generated procedurally in code. The only external dependencies are Three.js and dat.gui, loaded from a CDN.
 
 **▶️ [Live demo](https://souranyp-stack.github.io/koi-pond-garden/)** · one file · works on desktop and mobile
+&nbsp;·&nbsp; ⭐ **If you like it, star the repo** — it helps others find it.
 
-![Koi pond garden — aerial view](screenshot.jpg)
+![Koi pond garden — live footage](demo.gif)
+
+<sub>Recorded live in the browser. ▲ Above: the whole scene runs from one HTML file. Below: the pond from above.</sub>
+
+![Koi pond garden — from above](screenshot.jpg)
 
 ## Features
 
@@ -67,6 +72,10 @@ This project was built by directing [Claude](https://claude.ai) in rounds — de
 - [dat.gui](https://github.com/dataarts/dat.gui) for the control panel
 - Custom GLSL shaders, procedural textures, and the Web Audio API
 - No build step, no framework, no assets
+
+## Show your support
+
+If this made you smile, please **⭐ star the repo** and share it — it genuinely helps more people find it. Built something with the [prompt](prompt/)? I'd love to see it.
 
 ## License
 
