@@ -1,0 +1,7 @@
+.DS_Store
+node_modules/
+*.log
+
+# Personal working files, not part of the shared project
+.claude/
+social/
