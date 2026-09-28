@@ -4,11 +4,7 @@ Live location: https://jez237.com/demos/hidden-reef-koi/
 
 This revision adapts **Koi Pond Garden by Sourany Phomhome**, released under the MIT license at https://github.com/souranyp-stack/koi-pond-garden. Its rendering foundation replaces the earlier simplified Stillwater renderer. The required copyright and MIT permission notice are preserved in `public/LICENSES.txt`, together with the Three.js and dat.GUI licenses. This is an adapted work, not a claim of independent authorship of the upstream engine. The tutorial is https://www.youtube.com/watch?v=uSCUkGlHY30.
 
-![Stillwater garden](stillwater.png)
-
 ## Run and build
-
-Editable project: `source/`. Run the commands below from that directory. The root `index.html` and `koi-pond.html` are built copies; both open the same current garden. Original upstream screenshots and prompt files are retained for provenance.
 
 Node 24 or later. No package installation is required; Three.js r160 and dat.GUI are vendored under their original licenses.
 
@@ -51,5 +47,3 @@ Interaction tests also exercise fixed-view startup, bounded/reversible zoom, han
 Publish only to GitHub and jez237 until the user accepts this for the Hidden Reef site. The repository's root `AGENTS.md` deployment wrapper must be used to preserve all public assets and Pages Functions. Do not use a standalone static upload for jez237-site.
 
 Previous Blender-authored models and their generator remain archived in the repository's `model-source` directory; the v3 runtime uses the upstream procedural koi with revised kinematics.
-
-After building, copy the contents of `source/dist/` to the repository root and copy the resulting `index.html` to `koi-pond.html`. Commit the source and generated output together.
